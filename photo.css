@@ -1,0 +1,10 @@
+
+
+#premier{
+    background-image: url(../images/photo8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 10 px ;
+    height: 200px;
+    color: white;
+}   
