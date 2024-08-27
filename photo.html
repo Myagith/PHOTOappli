@@ -1,15 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>photo page</title>
+    <title>Vente de Photos - Mon Site</title>
     <link rel="stylesheet" href="photo.css">
 </head>
 <body>
-<div id="premier">
-  
-</div>
+    <header>
+        <div class="container">
+            <h1>Vente de Photos</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#shop">Boutique</a></li>
+                    <li><a href="apropos.html">À propos</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="administration.html">Administration</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Découvrez nos photos exclusives</h2>
+            <p>Des œuvres d'art pour embellir votre espace.</p>
+        </div>
+    </section>
+    
+    <section id="shop">
+        <div class="container">
+            <h2>Boutique</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="images/photo3.jpg" alt="Photo 1">
+                    <div class="gallery-item-info">
+                        <h3>Photo 1</h3>
+                        <p>Prix: 20€</p>
+                        <p>Disponibilité: 5 exemplaires</p>
+                        <a href="#" class="btn">Acheter</a>
+                    </div>
+                </div>
+                <div class="gallery-item sold-out">
+                    <img src="images/photo2.jpg" alt="Photo 2">
+                    <div class="gallery-item-info">
+                        <h3>Photo 2</h3>
+                        <p>Prix: 25€</p>
+                        <p>Disponibilité: Épuisé</p>
+                        <a href="#" class="btn disabled">Acheter</a>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/photo4.jpg" alt="Photo 1">
+                    <div class="gallery-item-info">
+                        <h3>Photo 1</h3>
+                        <p>Prix: 20€</p>
+                        <p>Disponibilité: 5 exemplaires</p>
+                        <a href="#" class="btn">Acheter</a>
+                    </div>  
+            </div>
+            <div class="gallery-item">
+                <img src="images/photo3.jpg" alt="Photo 1">
+                <div class="gallery-item-info">
+                    <h3>Photo 1</h3>
+                    <p>Prix: 20€</p>
+                    <p>Disponibilité: 5 exemplaires</p>
+                    <a href="#" class="btn">Acheter</a>
+                </div>
+                
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Vente de Photos. Tous droits réservés.</p>
+        </div>
+    </footer>
 
+    <script src="photo.js"></script>
 </body>
 </html>
